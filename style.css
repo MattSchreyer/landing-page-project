@@ -25,6 +25,14 @@ li {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bolder;
+    display: flex;
+    gap: 8px;
+}
+
+.logo img {
+    max-height: 24px;
+    max-width: 48px;
+    align-self: center;
 }
 
 .headerlinks {
@@ -74,7 +82,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em 2em 4em; 
+    padding: 2em 2em 4em; 
     gap: 16px;
 }
 
@@ -87,13 +95,14 @@ li {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 16px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
 }
 
 .card *{
@@ -103,6 +112,9 @@ li {
 .card img {
     border: 2px solid #3882f6;
     border-radius: 8px;
+    max-width: 300px;
+    height: 150px;
+    object-fit: scale-down;
 }
 
 .quotediv {
