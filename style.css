@@ -49,7 +49,11 @@ li {
     margin: 0;
     padding: 1em 2em;
     gap: 32px;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.hero * {
+    max-width: 800px;
 }
 
 .hero img {
@@ -92,6 +96,10 @@ li {
     align-items: center;
 }
 
+.card *{
+    max-width: 300px;
+}
+
 .card img {
     border: 2px solid #3882f6;
     border-radius: 8px;
@@ -99,7 +107,14 @@ li {
 
 .quotediv {
     background-color: #e5e7eb;
-    padding: 3em 4em;
+    padding: 3em 12em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotediv *{
+    max-width: 1000px;
 }
 
 .quotediv p {
@@ -112,7 +127,8 @@ li {
     text-align: right;
     font-size: large;
     font-weight: 500;
-    margin-top: 10px;;
+    margin-top: 10px;
+    margin-left: auto;
 }
 
 .calltoact {
@@ -125,9 +141,15 @@ li {
     display: flex;
     gap: 4em;
     align-items: center;
+    justify-content: center;
 }
 .calltoact button {
     border: solid 2px white;
+}
+
+.acttext div{
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .footer , .footer a{
