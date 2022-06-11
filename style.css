@@ -33,7 +33,7 @@ li {
     padding: 0;
 }
 
-.headerlinks a, .lefthero p{
+.headerlinks a, .lefthero p, .signup{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
@@ -55,4 +55,13 @@ li {
 .hero img {
     max-width: 275px;
     max-height: 184px;
+    align-self: center;
+}
+
+.signup {
+    margin: 0;
+    background-color: #3882f6;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 8px 32px
 }
